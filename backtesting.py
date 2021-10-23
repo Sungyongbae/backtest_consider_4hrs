@@ -44,7 +44,7 @@ def check_profit_BTC(buy,sell):
     profit = round(((sell/buy)-1)*100,2)
     return profit
 
-print("autotrade start")
+print("test_autotrade start")
 # 시작 메세지 슬랙 전송
 bot.sendMessage(ID, "sungyong_autotrade start")
 
