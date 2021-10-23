@@ -104,5 +104,5 @@ while True:
         time.sleep(1)
     except Exception as e:
         print(e)
-        bot.sendMessage(ID, e)
+        bot.sendMessage(ID, str(e))
         time.sleep(1)
